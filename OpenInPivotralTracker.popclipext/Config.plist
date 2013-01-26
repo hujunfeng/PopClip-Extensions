@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>2</integer>
+	<key>Extension Name</key>
+	<string>Open In PT</string>
+	<key>Extension Identifier</key>
+	<string>net.hujunfeng.pivotaltracker</string>
+	<key>Extension Description</key>
+	<string>Use selected text as a story ID and open the story in Pivotal Trakcer in the default browser.</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>pivotaltracker.png</string>
+			<key>Regular Expression</key>
+			<string>^\d{8}$</string>
+			<key>Title</key>
+			<string>Pivotal Tracker</string>
+			<key>URL</key>
+			<string>https://www.pivotaltracker.com/story/show/{popclip text}</string>
+		</dict>
+	</array>
+</dict>
+</plist>
