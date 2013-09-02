@@ -1,6 +1,6 @@
 # PopClip-Extensions
 
-I love [PopClip](http://pilotmoon.com/popclip/) so much that I create some PopClip extensions by myself. Here is a collection of them. Please feel free to use them if you like.
+A few [PopClip](http://pilotmoon.com/popclip/) extensions that I created for myself. Please feel free to use them if you like.
 
 ## Open In Pivotal Tracker
 
