@@ -9,3 +9,9 @@ This extension lets you select a story ID and open the story in Pivotal Tracker 
 ## Uncrustify Selected Lines in Xcode
 
 It requires [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrustifyPlugin-Xcode), and you must create a keyboard shortcut ⌃⌥⇧⌘U for the menu command "Uncrustify Selected Lines" in Xcode.
+
+## MPlayerX
+
+[MPlayerX](http://mplayerx.org) has the ability to stream YouTube or
+Vimeo video directly with URLs. This extension opens the selected URL
+with MPlayerX. Currently only YouTube and Vimeo URLs are supported.
