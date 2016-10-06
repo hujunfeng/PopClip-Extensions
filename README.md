@@ -15,3 +15,7 @@ It requires [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrustify
 [MPlayerX](http://mplayerx.org) has the ability to stream YouTube or
 Vimeo video directly with URLs. This extension opens the selected URL
 with MPlayerX. Currently only YouTube and Vimeo URLs are supported.
+
+## Highlight
+
+A modification of the official [PDF highlight extension](http://pilotmoon.com/popclip/extensions/page/PreviewHighlight). It adds the support of highlighting text in Evernote.
