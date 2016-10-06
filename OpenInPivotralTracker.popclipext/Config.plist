@@ -16,7 +16,7 @@
 			<key>Image File</key>
 			<string>pivotaltracker.png</string>
 			<key>Regular Expression</key>
-			<string>^\d{8}$</string>
+			<string>^\d{9}$</string>
 			<key>Title</key>
 			<string>Pivotal Tracker</string>
 			<key>URL</key>
