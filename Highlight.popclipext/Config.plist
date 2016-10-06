@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>hlite.png</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyChar</key>
+				<string>H</string>
+				<key>modifiers</key>
+				<integer>1310720</integer>
+			</dict>
+			<key>Required Apps</key>
+			<array>
+				<string>com.apple.Preview</string>
+				<string>net.sourceforge.skim-app.skim</string>
+				<string>com.readdle.PDFExpert-Mac</string>
+				<string>com.evernote.Evernote</string>
+			</array>
+			<key>Title</key>
+			<string>Highlight</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>net.sourceforge.skim-app.skim</string>
+			<key>Link</key>
+			<string>http://skim-app.sourceforge.net/</string>
+			<key>Name</key>
+			<string>Skim</string>
+		</dict>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>com.readdle.PDFExpert-Mac</string>
+			<key>Link</key>
+			<string>https://pdfexpert.com/</string>
+			<key>Name</key>
+			<string>PDF Expert</string>
+		</dict>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>com.evernote.Evernote</string>
+			<key>Link</key>
+			<string>https://evernote.com/</string>
+			<key>Name</key>
+			<string>Evernote</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Highlight the selected text in a PDF file in Preview, Skim or PDF Expert, or in Evernote.</string>
+	<key>Extension Identifier</key>
+	<string>hu.junfeng.highlight</string>
+	<key>Extension Name</key>
+	<string>Highlight</string>
+</dict>
+</plist>
