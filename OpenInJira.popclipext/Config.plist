@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>2</integer>
+	<key>Extension Name</key>
+	<string>Open In Jira</string>
+	<key>Extension Identifier</key>
+	<string>hu.junfeng.OpenInJira</string>
+	<key>Extension Description</key>
+	<string>Use selected text as an issue ID and open the issue in Jira in the default browser.</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>jira.png</string>
+			<key>Regular Expression</key>
+			<string>^TDS-\d{1,9}$</string>
+			<key>Title</key>
+			<string>Proceq Jira</string>
+			<key>URL</key>
+			<string>https://proceq.atlassian.net/browse/{popclip text}</string>
+		</dict>
+		<dict>
+			<key>Image File</key>
+			<string>jira.png</string>
+			<key>Regular Expression</key>
+			<string>^PQ-\d{1,9}$</string>
+			<key>Title</key>
+			<string>TDS Jira</string>
+			<key>URL</key>
+			<string>https://tectusdreamlab.atlassian.net/browse/{popclip text}</string>
+		</dict>
+	</array>
+</dict>
+</plist>
